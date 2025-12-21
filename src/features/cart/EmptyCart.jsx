@@ -1,5 +1,15 @@
+import { useNavigate } from 'react-router';
+import LinkButton from '../../ui/LinkButton';
+
 function EmptyCart() {
-  return <p>Your cart is still empty. Start adding some pizzas :)</p>;
+  return (
+    <div>
+      <LinkButton to="/menu" type="back">
+        &larr; Back to menu
+      </LinkButton>
+      <p>Your cart is still empty. Start adding some pizzas :)</p>;
+    </div>
+  );
 }
 
 export default EmptyCart;
