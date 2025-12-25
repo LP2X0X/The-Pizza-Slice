@@ -122,7 +122,7 @@ The app communicates with a backend API for menu and orders:
 
   * `/menu` – Fetch pizza menu
   * `/order` – Create a new order
-  * `/order/:id` – Fetch or update a specific order ([Awesome Ecosystem][3])
+  * `/order/:id` – Fetch or update a specific order
 
 ## 🎯 Purpose & Learning Value
 
